@@ -1,0 +1,66 @@
+Script started on Monday 25 March 2019 11:12:25 AM IST
+]0;css4d1@clab1-Veriton-Series: ~css4d1@clab1-Veriton-Series:~$ sftp cs17d14@192.168.0.30[1@5[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Psh 14.139.189.217cs17d14@14.139.189.217[8P14.139.189.217ft5p cs17d14@192.168.0.30[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksftp cs17d14@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d14@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+ASWIN_S4D14         examples.desktop    s4d.txt             s4d_s1_result.txt   
+sftp> put S4d[K[K[Ks4d_s1.[K_result.txt
+Uploading s4d_s1_result.txt to /home/cs17d14/s4d_s1_result.txt
+s4d_s1_result.txt                               0%    0     0.0KB/s   --:-- ETAs4d_s1_result.txt                             100% 3474     3.4KB/s   00:00    
+sftp> get s4d_s1_reslt.txts[1@ullt.txt
+Fetching /home/cs17d14/s4d_s1_result.txt to s4d_s1_result.txt
+/home/cs17d14/s4d_s1_result.txt                 0%    0     0.0KB/s   --:-- ETA/home/cs17d14/s4d_s1_result.txt               100% 3474     3.4KB/s   00:00    
+sftp> ls
+ASWIN_S4D14         examples.desktop    s4d.txt             s4d_s1_result.txt   
+sftp> lpwd
+Local working directory: /home/css4d1
+sftp> pwd
+Remote working directory: /home/cs17d14
+sftp> help
+Available commands:
+bye                                Quit sftp
+cd path                            Change remote directory to 'path'
+chgrp grp path                     Change group of file 'path' to 'grp'
+chmod mode path                    Change permissions of file 'path' to 'mode'
+chown own path                     Change owner of file 'path' to 'own'
+df [-hi] [path]                    Display statistics for current directory or
+                                   filesystem containing 'path'
+exit                               Quit sftp
+get [-Ppr] remote [local]          Download file
+reget remote [local]		Resume download file
+help                               Display this help text
+lcd path                           Change local directory to 'path'
+lls [ls-options [path]]            Display local directory listing
+lmkdir path                        Create local directory
+ln [-s] oldpath newpath            Link remote file (-s for symlink)
+lpwd                               Print local working directory
+ls [-1afhlnrSt] [path]             Display remote directory listing
+lumask umask                       Set local umask to 'umask'
+mkdir path                         Create remote directory
+progress                           Toggle display of progress meter
+put [-Ppr] local [remote]          Upload file
+pwd                                Display remote working directory
+quit                               Quit sftp
+rename oldpath newpath             Rename remote file
+rm path                            Delete remote file
+rmdir path                         Remove remote directory
+symlink oldpath newpath            Symlink remote file
+version                            Show SFTP version
+!command                           Execute 'command' in local shell
+!                                  Escape to local shell
+?                                  Synonym for help
+sftp> rename [7Ghelp[Kpwd[Khelprename s4de[K_s1_result s4ds1.txt
+Couldn't rename file "/home/cs17d14/s4d_s1_result" to "/home/cs17d14/s4ds1.txt": No such file or directory
+sftp> lls
+ASWIN_S4D14  cs.txt	       gpa.txt		   regi.txt	      s4d.txt
+a.txt	     Desktop	       ifconfig.txt	   reg.txt	      Templates
+b.txt	     Documents	       linux_commands.txt  res.txt	      Videos
+ccgpa.txt    Downloads	       Music		   result_CHN.pdf
+cgpa.txt     examples.desktop  name.txt		   result_CHN.txt
+cs1.txt      final.txt	       Pictures		   resu.txt
+css4
